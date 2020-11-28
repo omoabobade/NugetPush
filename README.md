@@ -21,5 +21,12 @@ The two commands above is shorten to
 
 ##Installation
 
+Download the .bat file unto your machine. Add the path to the file to your environment variable.
+
+
+##Usage 
+
+nugetpush path_to_secret_key
+
 
 
