@@ -6,7 +6,7 @@ echo nugetpush version 1.0.0
 echo By Kolawole Abobade kolawole.abobade@outlook.com
 ) else ( 
 	echo ::::::::Packaging your library ::::::::
-	call dopackage.bat
+	nuget pack
 	echo %ERRORLEVEL%
 	IF %ERRORLEVEL% NEQ 0 (
 		echo "An error occur while packing file"
