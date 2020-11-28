@@ -9,7 +9,7 @@ nuget pack
 ```
 and 
 ```
-nuget push AppLogger.1.0.0.nupkg qz2jga8pl3dvn2akksyquwcs9ygggg4exypy3bhxy6w6x6 -Source https://api.nuget.org/v3/index.json
+nuget push AppLogger.1.0.0.nupkg secretkey -Source https://api.nuget.org/v3/index.json
 ```
 
 You also don't need to remember you secret key any longer, save it and pass the path to ```nugetpush``` while it handles the rest.
